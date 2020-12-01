@@ -10,7 +10,7 @@
     <header>
         <nav>
             <a href="">
-            <img src="./images/logo.png" alt="Логотип компании">
+            <span>WebStudio</span> <!--обвернул в спан для дальнейшей стилизации в css-->
             </a>
             <ul>
                 <li><a href="">Студия</a></li>
@@ -32,51 +32,51 @@
     <main>
 <!--Герой-->
         <section>
-            <img src="./images/Bg.png" alt="логотип компании" width="1600">
-            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <img src="./images/Bg.png" alt="фон героя" width="1600" height="600">
+            <h1>Эффективные решения для вашего бизнеса</h1>
             <a href="">Заказать услугу</a>    
         </section>
 
-        <!--Преимущества-->
+        <!--Особенности-->
         <section>
-            <h2>Преимущества</h2> <!--этот загаловок будет скрыть в css-->
+            <h2 hidden>Особенности компании</h2>
             <ul>
                 <li>
-                    <h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                    <h3>Внимание к деталям</h3>
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h3>ПУНКТУАЛЬНОСТЬ</h3>
+                    <h3>Пунктуальность</h3>
                         <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h3>ПЛАНИРОВАНИЕ</h3>
+                    <h3>Планирование</h3>
                     <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                    <h3>Современные технологии</h3>
                     <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         
-        <!--примеры работ (добавить изображения!!!)-->
+        <!--примеры работ-->
         <section>
-            <h2>Чем мы занимаеся</h2>
+            <h2>Чем мы занимаемся</h2>
                 <ul>
                     <li>
                         <a href="">
-                        <img src="./images/comp.png" alt="работа на компьютере">
+                        <img src="./images/comp.png" alt="работа на компьютере" width="370" height="294">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                        <img src="./images/smart.png" alt="работа на смартфоне">
+                        <img src="./images/smart.png" alt="работа на смартфоне" width="370" height="294">
                         </a>
                     </li>
                     <li>
                         <a href="">
-                        <img src="./images/tablet.png" alt="работа на планшете">
+                        <img src="./images/tablet.png" alt="работа на планшете" width="370" height="294">
                         </a>
                     </li>
                 </ul>
@@ -87,68 +87,49 @@
             <ul>
                 <li>
                     <a href="">
-                        <img src="./images/Igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                        <img src="./images/Igor.jpg" alt="фото Игоря Демьяненко" width="270" height="260">
                         <h3>Игорь Демьяненко</h3>
                         <p>Product Designer</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./images/Olga.jpg" alt="Ольга Репина" width="270" height="260">
+                        <img src="./images/Olga.jpg" alt="фото Ольги Репиной" width="270" height="260">
                         <h3>Ольга Репина</h3>
-                        <p>Frintend Developer</p>
+                        <p>Frontend Developer</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./images/Nikolay.jpg" alt="Николай Тарасов" width="270" height="260">
+                        <img src="./images/Nikolay.jpg" alt="фото Николая Тарасова" width="270" height="260">
                         <h3>Николай Тарасов</h3>
                         <p>Marketing</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                        <img src="./images/Mihail.jpg" alt="Михаил Ермаков" width="270" height="260">
+                        <img src="./images/Mihail.jpg" alt="фото Михаила Ермакова" width="270" height="260">
                         <h3>Михаил Ермаков</h3>
                         <p>UI Designer</p>
                     </a>
                 </li>
-
-
-
-
             </ul>
-
-
         </section>
     </main>
 <!--футер-->
-<footer>
-    <section>
-        <h2>Контакты</h2> <!--этот загалов вскрою в css-->
-        <img src="./images/Footerbg.png" alt="фон футера" width="1600">
-    <ul>
-        <li>
-            <a href=""> <!--является логотип ссылкой на главную страницу и этот логотип не такой же как в шапке? Если ставлю в значении
-        href="/", то при клике на логотип переходит на диск С моего компа. Почему?-->
-             <img src="./images/logo1.png" alt="логотип компании">
-             Studio 
+    <footer>
+     <section>
+         <img src="./images/Footerbg.png" alt="фон футера" width="1600" height="252">
+        <h2 hidden>Контакты</h2>
+            <a href=""> <!-- Если ставлю в значении href="/", то при клике на логотип переходит на диск С моего компа. Почему?-->
+            <span>WebStudio</span> <!--обвернул в спан для дальнейшей стилизации в css-->
              </a>
-        </li>
-        <li>
-         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        </li>
-        <li>
-         <a href="mailto:info@example.com">info@example.com</a>
-         </li>
-         <li>
+       <address>
+        г. Киев, пр-т Леси Украинки, 26 <br>
+         <a href="mailto:info@example.com">info@example.com</a> <br>
          <a href="tel:+380991111111">+38 099 111 11 11</a>
-        </li>
-    </ul>
-</section>
-
-    
-</footer>
-    
+        </address>
+     </section>
+    </footer>
 </body>
 </html>
