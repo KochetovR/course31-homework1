@@ -387,7 +387,7 @@
                         <span class="form-appeal">Подпишитесь на рассылку</span>
                         <input class="form-input" type="email" name="email" placeholder="E-mail" autocomplete="off">
                     </label>
-                    <button class="footer-form-button">Подписаться
+                    <button class="footer-form-button" type="submit">Подписаться
                         <svg class="form-svg">
                             <use href="./images/symbol-defs.svg#icon-send"></use>
                         </svg>
@@ -403,9 +403,55 @@
                     <use href="./images/symbol-defs.svg#icon-close-1"></use>
                 </svg>
             </button>
+            <form class="hero-form">
+                <span class="hero-appeal">Оставьте свои данные, мы вам перезвоним</span>
+                <ul>
+                    <li class="list">
+                        <label class="hero-label">
+                            <span class="name-lable">Имя</span>
+                            <input type="text" name="name" class="hero-form-input">
+                            <svg class="hero-form-svg">
+                                <use href="./images/symbol-defs.svg#icon-person"></use>
+                            </svg>
+                        </label>
+                    </li>
+                    <li class="list">
+                        <lable class="hero-label">
+                            <span class="name-lable">Телефон</span>
+                            <input type="tel" name="tel" class="hero-form-input">
+                            <svg class="hero-form-svg">
+                                <use href="./images/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </lable>
+                    </li>
+                    <li class="list">
+                        <lable class="hero-label">
+                            <span class="name-lable">Почта</span>
+                            <input type="email" name="email" class="hero-form-input">
+                            <svg class="hero-form-svg">
+                                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                            </svg>
+                        </lable>
+                    </li>
+                    <li class="list">
+                        <lable class="hero-label">
+                            <span class="name-lable">Комментарий</span>
+                            <textarea name="comment" rows="7" placeholder="Введите текст"></textarea>
+                        </lable>
+                    </li>
+                </ul>
+                <label class="form-agree">
+                    <input type="checkbox" name="checkbox" class="input-agree">
+                    <span class="icon-agree"></span>
+                    Соглашаюсь с рассылкой и принимаю&#8287
+                    <a href="">Условия договора</a>
+                </label>
+                <button type="submit" class="hero-form-button">
+                    <span>Отправить</span>
+                </button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
-    
 </body>
 </html>
